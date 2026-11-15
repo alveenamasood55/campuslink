@@ -1,11 +1,11 @@
 # CampusLink
 
-A student-to-student academic support website. Students can learn about the idea, and post help requests for subjects such as C++ Programming, Discrete Structures, Mathematics, Artificial Intelligence and ICT.
+A student-to-student academic support website. Students post help requests (C++ Programming, Discrete Structures, Mathematics, Artificial Intelligence, ICT). An AI study helper writes an instant answer, and other students can add answers, tips and links to their notes.
 
 ## Files
-- `index.html` - the page
-- `style.css` - colors and layout
-- `script.js` - the help request form
+- `public/` - the website (`index.html`, `style.css`, `script.js`)
+- `src/worker.js` - the backend: saves data, asks the AI, answers `/api/*`
+- `wrangler.jsonc` - Cloudflare settings (project name, AI, and the D1 database ID)
 
-## Status
-Help requests currently show only in the visitor's own browser and disappear on refresh. A shared database is planned.
+## Built with
+Cloudflare Workers, Workers AI (free daily allowance) and Cloudflare D1 (database).
