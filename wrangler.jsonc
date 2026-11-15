@@ -1,0 +1,19 @@
+{
+  "name": "campuslink",
+  "main": "src/worker.js",
+  "compatibility_date": "2025-10-11",
+  "assets": {
+    "directory": "./public",
+    "binding": "ASSETS",
+    "run_worker_first": ["/api/*"]
+  },
+  "ai": { "binding": "AI" },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "campuslink-db",
+      "database_id": "329915e9-c2d0-40b1-803d-c6baaaf4efec"
+    }
+  ],
+  "observability": { "enabled": true }
+}
