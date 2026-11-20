@@ -8,4 +8,4 @@ A student-to-student academic support website. Students post help requests (C++ 
 - `wrangler.jsonc` - Cloudflare settings (project name, AI, and the D1 database ID)
 
 ## Built with
-Cloudflare Workers, Workers AI (free daily allowance) and Cloudflare D1 (database) .
+Cloudflare Workers, Workers AI (free daily allowance) and Cloudflare D1 (database).
